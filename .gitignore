@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Segredos
+.env
+
+# Registro de notícias já postadas (dados de execução local)
+noticias_postadas.json

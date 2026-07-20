@@ -1,0 +1,12 @@
+[project]
+name = "discord-proj-news"
+version = "0.1.0"
+description = "Bot que varre as notícias do Flow Games e posta num canal do Discord"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "discord-py>=2.7.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.3",
+]
